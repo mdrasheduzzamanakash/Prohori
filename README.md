@@ -1,6 +1,6 @@
 # Prohori: Detecting Brand-Impersonation Phishing Attacks with Confidence-Gated Domain-Consistency Verification
 
-This repository contains the implementation, trained models, and evaluation code for **Prohori**, a phishing detection framework that combines a lightweight structural classifier (GFhD) with a confidence-gated visual brand-matching module (ViS) to detect brand-impersonation phishing attacks.
+This repository contains the implementation, and evaluation code for **Prohori**, a phishing detection framework that combines a lightweight structural classifier (GFhD) with a confidence-gated visual brand-matching module (ViS) to detect brand-impersonation phishing attacks.
 
 Accepted at **COMPAS 2026** (Track: Distributed Systems, Networks, and Security).
 
