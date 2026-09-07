@@ -12,5 +12,3 @@ Prohori identifies phishing pages that visually impersonate trusted brands but a
 - **ViS** (Visual Similarity module) — a 4.8 MB MobileNetV3-Small backbone, distilled from a frozen CLIP ViT-B/32 teacher, that identifies which brand a rendered screenshot resembles.
 
 A confidence gate, computed via Monte Carlo Dropout uncertainty over ViS, decides when the visual brand match can be trusted. Confident, domain-inconsistent matches are flagged as impersonation; uncertain matches fall back entirely to GFhD.
-
-## Repository Structure
